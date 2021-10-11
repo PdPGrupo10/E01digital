@@ -15,19 +15,20 @@ con ajustes de "contrast ratio" https://webaim.org/resources/contrastchecker/
 /* cambien aquí sus colores, necesitan definir tres */
 
 :root {
-    --primercolor: #e9600b;
-    --segundocolor: #0b0a17; /* menos luminoso y más saturado que el primero */
-    --tercercolor: #b8d26a; /* más luminoso y menos saturado que el primero */
-    --colorclaro: rgba(255, 255, 255, 0.9);
-    --coloroscuro: rgba(0, 0, 0, 0.9);
+    --primercolor: #f2ece0; /* blanco */
+    --segundocolor: #0b0a17; /* azul */
+    --tercercolor: #b8d26a; /* verde */
+    --cuartocolor: #e9600b; /* naranjo */
+    --colorclaro: #f2ece0; /* blanco */
+    --coloroscuro: #0b0a17; /* azul */
 }
 
 body {
     /* asignen aquí las tipografías y colores para todo texto */
     font-family: "Quicksand", sans-serif;
     font-weight: 400;
-    background: var(--segundocolor);
-    color: var(--colorclaro);
+    background: var(--colorclaro);
+    color: var(--segundocolor);
 }
 
 strong {
@@ -47,12 +48,12 @@ p.lead {
 }
 
 a {
-    color: var(--tercercolor);
+    color: var(--cuartocolor);
     text-decoration: underline;
 }
 
 a:hover {
-    color: var(--colorclaro);
+    color: var(--cuartocolor);
     text-decoration: none;
 }
 
