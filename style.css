@@ -78,7 +78,7 @@ header {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    color: var(--colorclaro);
+    color: var(--coloroscuro);
 }
 
 @media (min-width: 576px) {
@@ -121,17 +121,17 @@ aside {
 }
 
 footer {
-    color: var(--segundocolor);
+    color: var(--coloroscuro);
 }
 
 footer a {
     text-decoration: none;
-    color: var(--segundocolor);
+    color: var(--colorclaro);
 }
 
 footer a:hover {
     text-decoration: none;
-    color: var(--coloroscuro);
+    color: var(--colorclaro);
 }
 
 /* ---------------------------------------- IMPORTANTE ----------------------------------------
