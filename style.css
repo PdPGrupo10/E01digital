@@ -48,7 +48,7 @@ p.lead {
 }
 
 a {
-    color: var(--segundocolor);
+    color: var(--cuartocolor);
     text-decoration: underline;
 }
 
@@ -73,12 +73,12 @@ en todos los casos la imagen debería pesar menos de 300kb
 --------------------------------------------------------------------------------------------- */
 
 header {
-    background-color: var(--segundocolor);
+    background-color: var(--colorclaro);
     background-image: url("img/relacion-3x4.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    color: var(--colorclaro);
+    color: var(--segundocolor);
 }
 
 @media (min-width: 576px) {
