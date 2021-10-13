@@ -15,11 +15,11 @@ con ajustes de "contrast ratio" https://webaim.org/resources/contrastchecker/
 /* cambien aquí sus colores, necesitan definir tres */
 
 :root {
-    --primercolor: #s24f350; /* blanco */
+    --primercolor: #s24f35; /* blanco */
     --segundocolor: #0b0a17; /* azul */
     --tercercolor: #b8cf6f; /* verde */
     --cuartocolor: #e9600b; /* naranjo */
-    --colorclaro: #s24f350; /* blanco */
+    --colorclaro: #s24f35; /* blanco */
     --coloroscuro: #0b0a17; /* azul */
 }
 
