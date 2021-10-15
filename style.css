@@ -122,6 +122,7 @@ aside {
 
 footer {
     color: var(--tercercolor);
+    background-color: var(--tercercolor);
 }
 
 footer a {
