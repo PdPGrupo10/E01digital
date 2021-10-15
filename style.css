@@ -29,7 +29,7 @@ body {
     font-weight: 400;
     background: var(--colorclaro);
     color: var(--segundocolor);
-    color: var(--primercolor);
+    
 }
 
 strong {
